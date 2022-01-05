@@ -56,7 +56,7 @@ function Header() {
                             + Hoa hồng 2 đến 4% tùy từng dự án<br/>
                             + Đảm bảo có thu nhập từ 20 triệu đến 100 triệu / tháng tùy theo năng lực<br/>
                             + Yêu cầu công việc : nhân viên giao tiếp tốt, có laptop, xe máy, tuổi từ 18 đến 35 tuổi<br/>
-                            + Làm việc tại: 248 Đường Tân Sơn Nhì, Phường Tân Sơn Nhì, Quận Tân Phú, Tp. HCM+ Du lịch 2 lần/năm, đóng bảo hiểm hằng tháng
+                            + Làm việc tại: 248 Đường Tân Sơn Nhì, Phường Tân Sơn Nhì, Quận Tân Phú, Tp. HCM + Du lịch 2 lần/năm, đóng bảo hiểm hằng tháng
                             </p>
                         </div>
                     </div>
