@@ -1,0 +1,77 @@
+.header .nav{
+    padding: 0 50px;
+    height: 90px; 
+    background: #fff;
+}
+.header .nav,.header .nav .logo, .header .nav .social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.header .nav .social img{ 
+    margin: 0 6px;
+}
+.header .nav .logo img{
+    margin-right: 15px;
+}
+.header .nav h2{
+    font-size: 20px;
+    color:#004834;
+}
+.header .hero-banner{
+    padding: 0 50px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../Assets/Images/hero-bg.png) no-repeat center;
+    background-size: cover;
+}
+.header .hero-banner .box{
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.header .hero-banner .content{
+    width: 60%;
+    color:#fff;
+}
+.header .hero-banner .content p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.header .hero-banner .content h1{
+    font-size: 30px;
+}
+.header .hero-banner .content h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.header .hero-banner .img{
+    width: 40%;
+}
+.header .content .group{
+    margin-top: 20px;
+}
+.header .hero-banner .contact-btn{
+    margin-top: 20px;
+    width: 100%;
+    text-align: right;
+}
+.header .contact-btn a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#004834;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 40px 10px 40px;
+    border: 2px solid #004834;
+    background:#fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
