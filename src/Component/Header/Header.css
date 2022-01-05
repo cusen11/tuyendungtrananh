@@ -1,7 +1,33 @@
 .header .nav{
-    padding: 0 50px;
-    height: 90px; 
+    padding: 10px 50px; 
     background: #fff;
+    width: 100%;
+    transition: all 0.5s; 
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.header.fixed .nav {
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0 50px;
+    transition: all 0.5s; 
+}
+.header.fixed .nav .logo img{
+    transition: all 0.5s; 
+    height: 60px;
+    
+}
+.header.fixed .nav h2{
+    transition: all 0.5s; 
+    font-size: 18px;
+    
+}
+.header.fixed .nav .social img { 
+    transition: all 0.5s; 
+    width: 30px;
 }
 .header .nav,.header .nav .logo, .header .nav .social{
     display: flex;
@@ -26,6 +52,7 @@
     color:#004834;
 }
 .header .hero-banner{
+    margin-top: 90px;
     padding: 0 50px;
     height: 600px;
     display: flex;

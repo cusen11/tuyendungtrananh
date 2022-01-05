@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
-import logo from '../../Assets/Images/logo.png';
+import logo from '../../Assets/Images/logo-small.svg';
 import logoSVG from '../../Assets/Images/logo.svg';
 import fbBlack from '../../Assets/Images/fb-b.png';
 import gBlack from '../../Assets/Images/g-b.png';
 import inbBlack from '../../Assets/Images/in-b.png';
 import ybBlack from '../../Assets/Images/y-b.png';
 
-function Header() {
+function Header() { 
+    const [ nav, setNav ] = useState('header');
+    window.addEventListener('scroll', () => {
+        const yOffset = window.pageYOffset;
+        if(yOffset >= 90){
+            setNav('header fixed')
+        } 
+        else{
+            setNav('header')
+        }
+    });
     return (
-        <div className='header'>
+        <div className={nav}>
             <div className="nav">
                 <div className="logo">
                     <a href="/" rel="noopener noreferrer"><img src={logo} alt="logo" /></a>

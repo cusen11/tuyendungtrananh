@@ -1,0 +1,38 @@
+.benefit{
+    padding: 65px;
+    background:#004834;
+}
+.benefit .box{
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+}
+.benefit h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.benefit .content{
+    z-index: 10;
+    position: relative;
+    width: 45%;
+} 
+.benefit li{
+    font-size: 18px;
+    color:#fff;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    position: relative; 
+}
+.benefit li::before{
+    content: url(../../Assets/Images/arrow.png) ;
+    position: absolute;
+    top: 4px;
+    left: 0; 
+}
+.benefit img{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 5;
+    transform: translate(0,-50%);
+}

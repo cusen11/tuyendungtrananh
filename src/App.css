@@ -53,3 +53,10 @@ img{
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
+h2{
+    font-size: 30px;
+}
+a{text-decoration: none;}
+li{
+    list-style: none;
+}
