@@ -35,4 +35,9 @@
     right: 0;
     z-index: 5;
     transform: translate(0,-50%);
+    transition: all 1s;
+}
+.benefit:hover img{
+    transform: translate(0,-50%) rotate(5deg);
+    transition: all 1s;
 }
