@@ -3,12 +3,10 @@ import logoSVG from '../../Assets/Images/logo.svg';
 import loadDing from '../../Assets/Images/loading.gif';
 
 function LoadPage() { 
-    const [ loadPage, setLoadPage ] = useState(false) 
-    document.body.style.overflow='hidden';
+    const [ loadPage, setLoadPage ] = useState(false)  
     window.addEventListener('load', () => {
         setTimeout(()=>{
-            setLoadPage(true) 
-            document.body.style.overflow='inherit';
+            setLoadPage(true)  
         },1000)    
     });  
     const style={
@@ -20,7 +18,7 @@ function LoadPage() {
         flexDirection: 'column',
         height: '100%',
         width: '100%',
-        background: '#fff',
+        background: '#ffff',
         zIndex:10000,
         top:0,
         left:0,
