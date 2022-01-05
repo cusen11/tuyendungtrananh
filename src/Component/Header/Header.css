@@ -9,8 +9,14 @@
     align-items: center;
     flex-wrap: wrap;
 } 
-.header .nav .social img{ 
+.header .nav .social img{  
     margin: 0 6px;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+.header .nav .social img:hover{
+    background:#004834;
+    transition: all 0.3s; 
 }
 .header .nav .logo img{
     margin-right: 15px;
@@ -45,6 +51,7 @@
     line-height: 1.4;
 }
 .header .hero-banner .content h1{
+    margin-bottom: 10px;
     font-size: 30px;
 }
 .header .hero-banner .content h4{
@@ -76,7 +83,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: all 0.3s;
 }
-.header .contact-btn a:hover{
-    box-shadow: 6px 10px 9px 0px rgb(0 0 0 / 25%);
+.header .contact-btn a:hover{  
+    color:#fff;
+    background:#004834;
     transition: all 0.3s;
 }
