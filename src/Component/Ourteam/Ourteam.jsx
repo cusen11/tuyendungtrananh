@@ -96,6 +96,16 @@ function Ourteam() {
                     </div>
                 </div> 
             </Slider>
+            <div className="wedo">
+                <div className="box">
+                    <h3>Chúng ta sẽ làm gì?</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div className="box">
+                    <h3>Mục đích hướng tới</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
         </div>
       );
 }
