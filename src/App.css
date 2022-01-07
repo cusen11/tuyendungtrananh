@@ -45,6 +45,7 @@ body {
     font-family: 'Fakt-Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 img{
     max-width: 100%;
