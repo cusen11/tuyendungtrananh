@@ -3,6 +3,7 @@ import Benefit from './Component/Benefit/Benefit';
 import Header from "./Component/Header/Header";
 import LoadPage from './Component/LoadPage/LoadPage';
 import Ourteam from './Component/Ourteam/Ourteam';
+import Project from './Component/Project/Project';
 
 
 function App() {  
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Benefit/>
       <Ourteam/>
+      <Project/>
     </>
   );
 }

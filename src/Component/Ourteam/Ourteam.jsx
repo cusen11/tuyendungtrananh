@@ -95,7 +95,7 @@ function Ourteam() {
                         <p>Giám đốc tài chính</p>
                     </div>
                 </div> 
-            </Slider>
+            </Slider> 
             <div className="wedo">
                 <div className="box">
                     <h3>Chúng ta sẽ làm gì?</h3>

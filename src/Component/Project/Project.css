@@ -1,0 +1,78 @@
+.projects{
+    overflow: hidden;
+    position: relative; 
+    padding: 130px 0;
+    background: linear-gradient(180deg, #004834 0%, rgba(112, 149, 139, 0.515625) 62.5%, rgba(232, 232, 232, 0) 100%);
+    border-bottom: 4px solid #004834;
+}
+.projects .content{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    z-index: 20;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects .content .item{
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    width: 48%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color:#fff
+}
+.projects .content .item:nth-child(3),.projects .content .item:nth-child(4){
+    margin-bottom: 0;
+}
+.projects .content .item img{
+    width: 100%;
+}
+.projects .content .item h3{
+    font-size: 40px;
+    color:#fff;
+    transition: all 0.3s;
+}
+.projects .content .item p{
+    transition: all 0.3s;
+    opacity: 0;
+    height: 0;
+}
+.projects .content .item .text-conent{
+    background-color: #00000033;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.projects .content .item:hover .text-conent{
+    transition: all 0.3s;
+    background-color: #00000099; 
+}
+.projects .content .item:hover h3{
+    transition: all 0.3s;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.projects .content .item:hover p{
+    transition: all 0.3s;
+    opacity: 1;
+    height: auto;
+}
