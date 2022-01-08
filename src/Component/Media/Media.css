@@ -1,0 +1,28 @@
+.media{
+    position: relative;
+    padding: 40px 60px;
+}
+.media h2 {
+    position: relative;
+    z-index: 20;
+    font-size: 36px;
+    color: #004834;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.media{
+    max-width: 1500px;
+    margin: auto;
+}
+.media img{
+    cursor: pointer;
+    width: 367px;
+    height: 183px;
+    margin: 5px;
+}
+.media .list-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

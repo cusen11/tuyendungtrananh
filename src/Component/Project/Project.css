@@ -1,7 +1,7 @@
 .projects{
     overflow: hidden;
     position: relative; 
-    padding: 130px 0;
+    padding: 80px 0 80px 0;
     background: linear-gradient(180deg, #004834 0%, rgba(112, 149, 139, 0.515625) 62.5%, rgba(232, 232, 232, 0) 100%);
     border-bottom: 4px solid #004834;
 }
@@ -61,8 +61,16 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
+.projects h2 {
+    position: relative;
+    z-index: 20;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
 .projects .content .item:hover .text-conent{
+    cursor: pointer;
     transition: all 0.3s;
     background-color: #00000099; 
 }

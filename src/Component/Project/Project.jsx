@@ -16,6 +16,7 @@ function Project() {
             <div className="ani-left-right6"></div>            
             <div className="ani-left-right7"></div>
             <div className="ani-left-right8"></div>
+            <h2>DỰ ÁN ĐANG BÁN</h2>
             <div className="content">
                 <div className="item">
                     <img src={HCM} alt="bất động sản hồ chí minh" />
