@@ -6,6 +6,7 @@ import LoadPage from './Component/LoadPage/LoadPage';
 import Media from './Component/Media/Media';
 import Ourteam from './Component/Ourteam/Ourteam';
 import Project from './Component/Project/Project';
+import Footer from './Component/Footer/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Ourteam/>
       <Project/>
       <Media/>
+      <Footer/>
     </>
   );
 }

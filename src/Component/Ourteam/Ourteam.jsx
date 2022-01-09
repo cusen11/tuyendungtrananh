@@ -14,6 +14,9 @@ function Ourteam() {
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows:true,
+        autoplay: true, 
+        autoplaySpeed: 5000,
+        cssEase: "linear",
         centerPadding:'100',
         responsive: [
             {
@@ -36,8 +39,8 @@ function Ourteam() {
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 2,
+                slidesToScroll: 2
               }
             }
           ]

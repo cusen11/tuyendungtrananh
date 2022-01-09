@@ -1,0 +1,64 @@
+.footer{
+    background: #004834;
+    color:#fff;
+    font-size: 16px;
+}
+.footer .wrapper{
+    max-width: 1500px;
+    margin: auto;
+    padding: 80px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer iframe{
+    width: 555px;
+    height: 235px;
+}
+.footer h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+} 
+.footer h5{ 
+    margin-bottom: 5px;
+} 
+.footer .address,
+.footer .contact{
+    margin-bottom: 15px;
+}
+.footer .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer .social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer .social img {
+    margin: 0 6px;
+    transition: all 0.3s;
+    border-radius: 50%;
+    width: 35px;
+}
+.zalo-phone{
+    opacity: 0.5;
+    transition: all 0.3s;
+    background: #000;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: fixed;
+    bottom: 15%;
+    right: 50px;
+    z-index: 100000;
+}
+.zalo-phone img{
+    margin: 15px 0;
+}
+.zalo-phone:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
