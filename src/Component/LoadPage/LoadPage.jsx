@@ -10,7 +10,7 @@ function LoadPage() {
         },1000)    
     });  
     const style={
-        position:'absolute',
+        position:'fixed',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -25,7 +25,7 @@ function LoadPage() {
         transition: 'all 0.5s'
     }
     const style2={
-        position:'absolute',
+        position:'fixed',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
