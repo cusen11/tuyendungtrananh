@@ -45,14 +45,14 @@ body {
     font-family: 'Fakt-Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 img{
     max-width: 100%;
     display: block; 
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: bold;
+    font-weight: 600;
 }
 h2{
     font-size: 30px;
@@ -316,3 +316,96 @@ li{
         -webkit-transform: translate(0, 0) rotate(0deg);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .ani-left-right8{
+        z-index: 10;
+        animation: rotatedelement8 35s infinite linear;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        right: 7%;
+        bottom: 10%;
+        position: absolute;
+        background: #09D29A;
+    }
+    .ani-left-right7{
+        z-index: 10;
+        animation: rotatedelement7 25s infinite linear;
+        width: 45px;
+        height: 80px;
+        border-radius: 50%;
+        background: #038A65; 
+        right:10%;
+        bottom: 30%;
+        position: absolute;
+        
+    }
+    .ani-left-right6{
+        z-index: 10;
+        animation: rotatedelement6 20s infinite linear;
+        width: 8px;
+        height: 35px;
+        border-radius: 50%;
+        background: #B0FFE9;
+        right: 40%;
+        bottom: 10%;
+        position: absolute;
+    } 
+    .ani-left-right5{
+        z-index: 10;
+        animation: rotatedelement5 35s infinite linear;
+        width: 65px;
+        height: 35px;
+        border-radius: 50%;
+        left: 8%;
+        bottom: 10%;
+        position: absolute;
+        background: #65FAD0;
+    }
+    .ani-left-right4{
+        z-index: 10;
+        animation: rotatedelement4 45s infinite linear;
+        width: 100px;
+        height: 35px;
+        border-radius: 50%;
+        background: #27A985; 
+        right:40%;
+        top: 40%;
+        position: absolute;
+    }
+    .ani-left-right3{
+        z-index: 10;
+        animation: rotatedelement3 20s infinite linear;
+        width: 110px;
+        height: 45px;
+        border-radius: 50%;
+        background: #27A985;
+        right: 7%;
+        top: 25%;
+        position: absolute;
+    }
+    .ani-left-right2{
+        z-index: 10;
+        animation: rotatedelement2 35s infinite linear;
+        width: 70px;
+        height: 30px;
+        border-radius: 50%;
+        left: 30%;
+        top: 10%;
+        position: absolute;
+        background: #ADFFE8;
+    }
+    .ani-left-right1{
+        z-index: 10;
+        animation: rotatedelement 10s infinite linear;
+        width: 80px;
+        height: 90px;
+        border-radius: 50%;
+        background: #03B785;
+        left: 7%;
+        top: 5%;
+        position: absolute;
+    }
+}
+

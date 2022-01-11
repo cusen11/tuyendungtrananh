@@ -14,6 +14,7 @@
 .footer iframe{
     width: 555px;
     height: 235px;
+    max-width: 100%;
 }
 .footer h4{
     text-align: center;
@@ -53,7 +54,7 @@
     position: fixed;
     bottom: 15%;
     right: 50px;
-    z-index: 100000;
+    z-index: 999;
 }
 .zalo-phone img{
     margin: 15px 0;
@@ -61,4 +62,56 @@
 .zalo-phone:hover{
     opacity: 1;
     transition: all 0.3s;
+}
+.footer .contacts{
+    padding-right: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .footer .wrapper{
+        padding: 40px 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        font-size: 12px;
+    }
+    .footer .wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .footer .contacts{
+        padding: 30px;
+    }
+    .footer iframe{
+        width: 100%;
+    }
+    .footer h4{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .footer .maps{
+        padding:0  5px;
+        width: 100%;
+        position: relative;
+    }
+    .footer .maps::before{
+        position: absolute;
+        content: '';
+        width: 60%;
+        height: 2px;
+        background: #fff;
+        top: -15px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .zalo-phone { 
+        opacity: 1;
+        bottom: 5%;
+        right: 10px; 
+    }
+    .zalo-phone img{
+        width: 25px;
+        margin: 7px 0;
+    }
 }

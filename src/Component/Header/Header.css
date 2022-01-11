@@ -115,3 +115,75 @@
     background:#004834;
     transition: all 0.3s;
 }
+@media screen and (max-width: 1024px) {
+    .header .hero-banner .content h1 { 
+        font-size: 24px;
+    }
+    .header .hero-banner .content p{
+        font-size: 16px;
+    }
+    .header .content .group {
+        margin-top: 10px;
+    }
+    .header .hero-banner .content h4{
+        font-size: 18px;
+    }
+    .header .hero-banner .img{
+        width: 35%;
+    }
+    .header .hero-banner .content{
+        width: 65%;
+    }
+    .header .contact-btn a{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header .hero-banner .img{
+        display: none;
+    }
+    .header .nav .social img,
+    .header.fixed .nav .social img{
+        transition: all 0.3s;
+        width: 25px;
+    }
+    .header.fixed .nav .logo img{
+        height: 40px;
+        transition: all 0.3s;
+    }
+    .header.fixed .nav{
+        height: 50px;
+        transition: all 0.3s;
+    }
+    .header .nav h2{
+        display: none;
+    }
+    .header .hero-banner .content{
+        width: 100%;
+    }
+    .header .nav{
+        padding: 0 10px;
+    }
+    .header .hero-banner{
+        margin-top: 70px;
+        height: auto;
+        padding: 30px;
+    }
+    .header.fixed .nav{
+        padding: 0 10px
+    }
+    .header .hero-banner .content h1{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .header .hero-banner .content p{
+        font-size: 12px;
+    }
+    .header .contact-btn a { 
+        font-size: 16px; 
+        padding: 11px 20px 9px 20px;
+    }
+    .header .content .group{
+        margin-top: 10px;
+    }
+}
