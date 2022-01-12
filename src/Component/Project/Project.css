@@ -85,6 +85,11 @@
     opacity: 1;
     height: auto;
 }
+@media screen and (max-width: 900px) {
+    .projects .content .item .text-conent p{
+        display: none;
+    }
+}
 @media screen and (max-width: 768px) {
     .projects{
         padding: 40px 10px;
@@ -105,9 +110,7 @@
     .projects .content .item .text-conent{
         padding: 5px;
     }
-    .projects .content .item .text-conent p{
-        display: none;
-    }
+  
     .projects .content .item:hover h3{
         font-size: 16px;
         margin-bottom: 0;

@@ -4,7 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 import './Ourteam.css';
 
-import Person from '../../Assets/Images/person.png';
+import nv from '../../Assets/Images/nv.png'; 
+import nv1 from '../../Assets/Images/nv1.png'; 
+import nv2 from '../../Assets/Images/nv2.png'; 
+import nv3 from '../../Assets/Images/nv3.png'; 
+import nv4 from '../../Assets/Images/nv4.png'; 
+import nv5 from '../../Assets/Images/nv5.png'; 
+import nv6 from '../../Assets/Images/nv6.png'; 
+import nv7 from '../../Assets/Images/nv7.png';  
+import nv8 from '../../Assets/Images/nv8.png';  
 
 function Ourteam() {
     const settings = {
@@ -62,63 +70,77 @@ function Ourteam() {
             <h2>ĐỘI NGŨ TRẦN ANH GROUP</h2>
             <Slider {...settings}>
                 <div className="box-img">
-                    <img src={Person} alt="" />
+                    <img src={nv} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Văn A</h4>
-                        <p>Giám đốc tài chính</p>
+                        <h4>Lê Thị Xinh</h4>
+                        <p>Phó Phòng Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
-                    <img src={Person} alt="" />
+                    <img src={nv1} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Văn A</h4>
-                        <p>Giám đốc tài chính</p>
+                        <h4>Hồ Xuân Thủy</h4>
+                        <p>Trưởng Phòng Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
-                    <img src={Person} alt="" />
+                    <img src={nv2} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Văn A</h4>
-                        <p>Giám đốc tài chính</p>
+                        <h4>Lê Đình Chính</h4>
+                        <p>Phó Giám Đốc</p>
                     </div>
                 </div> 
                 <div className="box-img">
-                    <img src={Person} alt="" />
+                    <img src={nv3} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Văn A</h4>
-                        <p>Giám đốc tài chính</p>
+                        <h4>Lại Đình Cương</h4>
+                        <p>Giám Đốc</p>
                     </div>
                 </div> 
                 <div className="box-img">
-                    <img src={Person} alt="" />
+                    <img src={nv4} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Văn A</h4>
-                        <p>Giám đốc tài chính</p>
+                        <h4>Bùi Thị Hòa</h4>
+                        <p>Phó Phòng Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
-                    <img src={Person} alt="" />
+                    <img src={nv5} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Văn A</h4>
-                        <p>Giám đốc tài chính</p>
+                        <h4>Hồ Quyết Thắng</h4>
+                        <p>Leader</p>
                     </div>
                 </div> 
                 <div className="box-img">
-                    <img src={Person} alt="" />
+                    <img src={nv6} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Văn A</h4>
-                        <p>Giám đốc tài chính</p>
+                        <h4>Hoàng Thị Ngọc Ánh</h4>
+                        <p>Trưởng Phòng Kinh Doanh</p>
+                    </div>
+                </div> 
+                <div className="box-img">
+                    <img src={nv7} alt="" />
+                    <div className="content">
+                        <h4>Nguyễn Thị Kim Chi</h4>
+                        <p>Sub Leader</p>
+                    </div>
+                </div> 
+                <div className="box-img">
+                    <img src={nv8} alt="" />
+                    <div className="content">
+                        <h4>Nguyễn Trọng Dương</h4>
+                        <p>Phó Giám Đốc</p>
                     </div>
                 </div> 
             </Slider> 
             <div className="wedo">
                 <div className="box">
                     <h3>Chúng ta sẽ làm gì?</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Sales bất động sản (hay còn gọi là nhân viên kinh doanh bất động sản, nhà môi giới, chuyên viên tư vấn) là bên trung gian giữa người mua và người bán thông qua các hoạt động tư vấn, quảng cáo, tiếp thị để kết nối người bán và người muốn mua nhà và được hưởng một khoản phí (hoa hồng) khi giao dịch diễn ra thành công</p>
                 </div>
                 <div className="box">
                     <h3>Mục đích hướng tới</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Kiến thức chuyên môn ngành kinh doanh thương mại,đam mê trong việc kinh doanh làm giàu, am hiểu trong kiến thức về thổ cư, khả năng giao tiếp thuyết phục tốt, có sự kiên trì và khả năng chịu được áp lực về doanh số, luôn hướng đến sẽ trở thành một chuyên gia bất động sản trong tương lai.</p>
                 </div>
             </div>
         </div>

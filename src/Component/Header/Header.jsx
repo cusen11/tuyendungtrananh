@@ -4,8 +4,7 @@ import './Header.css';
 import logo from '../../Assets/Images/logo-small.svg';
 import logoSVG from '../../Assets/Images/logo.svg';
 import fbBlack from '../../Assets/Images/fb-b.png';
-import gBlack from '../../Assets/Images/g-b.png';
-import inbBlack from '../../Assets/Images/in-b.png';
+import gBlack from '../../Assets/Images/g-b.png'; 
 import ybBlack from '../../Assets/Images/y-b.png';
 
 function Header() { 
@@ -27,10 +26,9 @@ function Header() {
                     <h2>CÔNG TY CP TẬP ĐOÀN TRẦN ANH</h2>
                 </div>
                 <div className="social">
-                    <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={fbBlack} alt="facebook" /></a>
-                    <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={ybBlack} alt="youtube" /></a>
-                    <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={gBlack} alt="Google plus" /></a>
-                    <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={inbBlack} alt="Instagram" /></a>
+                    <a href="https://www.facebook.com/Tuy%E1%BB%83n-d%E1%BB%A5ng-nh%C3%A2n-s%E1%BB%B1-Tr%E1%BA%A7n-Anh-110411524861806/?ref=pages_you_manage" target="_blank" rel="noopener noreferrer"><img src={fbBlack} alt="facebook" /></a>
+                    <a href="/#" target="_blank" rel="noopener noreferrer"><img src={ybBlack} alt="youtube" /></a>
+                    <a href="mailto:ceo.248tsn@trananhgroup.com" target="_blank" rel="noopener noreferrer"><img src={gBlack} alt="Google plus" /></a> 
                 </div>
             </div>
             <div className="hero-banner">

@@ -22,28 +22,28 @@ function Project() {
                     <img src={HCM} alt="bất động sản hồ chí minh" />
                     <div className="text-conent">
                         <h3>BDS HCM</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Có nền kinh tế phát triển nhanh và mạnh nhất nước, bất động sản Tp.HCM được xem là một trong những thị trường tiềm năng và thu hút đầu tư cao nhất tại khu vực Đông Nam Á. Trong đó, các quận trung tâm 1 và 3 luôn được xem là các vị trí vàng để đầu tư, kinh doanh.</p>
                     </div>
                 </div>
                 <div className="item">
                     <img src={BINHDUONG} alt="bất động sản bình dương" />
                     <div className="text-conent">
                         <h3>BDS BÌNH DƯƠNG</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Từ trước đến nay, thị trường bất động sản Bình Dương được biết đến là thị trường giá thấp chủ yếu dành cho các nhà đầu tư nhỏ lẻ, ít vốn.</p>
                     </div>
                 </div>
                 <div className="item">
                     <img src={BARIA} alt="bất động sản bìa rịa" />
                     <div className="text-conent">
                         <h3>BDS BÀ RỊA</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Với lợi thế bãi biển tuyệt đẹp, hạ tầng hoàn thiện, giá cả hợp lý BDS Bà Rịa đang là điểm sáng của BĐS khu vực phía Nam.</p>
                     </div>
                 </div>
                 <div className="item">
                     <img src={LONGAN} alt="bất động sản long an" />
                     <div className="text-conent">
                         <h3>BDS LONG AN</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Bên cạnh hạ tầng, một loạt dự án đầu tư phát triển công nghiệp, dịch vụ chuẩn bị triển khai tại tỉnh Long An đang hứa hẹn kích hoạt một làn sóng đầu tư mới vào lĩnh vực bất động sản.</p>
                     </div>
                 </div>
             </div>

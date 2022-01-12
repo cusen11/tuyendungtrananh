@@ -2,8 +2,7 @@ import React from 'react';
 import './Footer.css';
 
 import fbWhite from '../../Assets/Images/fb-w.png';
-import gWhite from '../../Assets/Images/g-w.png';
-import inbWhite from '../../Assets/Images/in-w.png';
+import gWhite from '../../Assets/Images/g-w.png'; 
 import ybWhite from '../../Assets/Images/y-w.png';
 import IMGZALO from '../../Assets/Images/zalo.png';
 import IMGPhone from '../../Assets/Images/phone-w.png';
@@ -14,8 +13,8 @@ function Footer() {
     return (
         <div className='footer'>
             <div className="zalo-phone">
-                <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={IMGZALO} alt="Zalo" /></a>
-                <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={IMGPhone} alt="Phone tran anh group" /></a>
+                <a href="https://zalo.me/0932645558" target="_blank" rel="noopener noreferrer"><img src={IMGZALO} alt="Zalo" /></a>
+                <a href="tel:0932645558" target="_blank" rel="noopener noreferrer"><img src={IMGPhone} alt="Phone tran anh group" /></a>
             </div>
             <div className="wrapper">
                 <div className="contacts">
@@ -27,19 +26,19 @@ function Footer() {
                     <div className="contact">
                         <div className="phone">
                             <h5>Điện thoại:</h5>
-                            <p>+8491999999</p>
-                            <p>+8491999999</p>
+                            <p>0909027787</p>
+                            <p>0932645558 </p>
                         </div>
                         <div className="mail">
                             <h5>Mail:</h5>
-                            <p>trananhgroup@gmail.com</p>
+                            <p>ceo.248tsn@trananhgroup.com</p>
+                            <p>sangiaodich.248tsn@gmail.com</p>
                         </div>
                     </div>
                     <div className="social">
-                        <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={fbWhite} alt="facebook" /></a>
-                        <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={ybWhite} alt="youtube" /></a>
-                        <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={gWhite} alt="Google plus" /></a>
-                        <a href="fb.com" target="_blank" rel="noopener noreferrer"><img src={inbWhite} alt="Instagram" /></a>
+                        <a href="https://www.facebook.com/Tuy%E1%BB%83n-d%E1%BB%A5ng-nh%C3%A2n-s%E1%BB%B1-Tr%E1%BA%A7n-Anh-110411524861806/?ref=pages_you_manage" target="_blank" rel="noopener noreferrer"><img src={fbWhite} alt="facebook" /></a>
+                        <a href="/#" target="_blank" rel="noopener noreferrer"><img src={ybWhite} alt="youtube" /></a>
+                        <a href="mailto:ceo.248tsn@trananhgroup.com" target="_blank" rel="noopener noreferrer"><img src={gWhite} alt="Google plus" /></a> 
                     </div>
                 </div>
                 <div className="maps">

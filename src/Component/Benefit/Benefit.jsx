@@ -15,8 +15,7 @@ function Benefit() {
                         <li> Bảo hiểm lên đến 10.000.000 VNĐ khi hợp tác.</li>
                         <li> Áp dụng khoa học và công nghệ vào trong công việc.</li>
                         <li> Tự chủ thời gian, tự chủ công việc</li>
-                        <li> Làm việc trong môi trường, tiếp xúc với những người nhiều tiền, 
-                            tài giỏi trong nhiều lĩnh vực khác nhau.</li>
+                        <li> Làm việc trong môi trường, tiếp xúc với những người tài giỏi, thành công trong nhiều lĩnh vực khác nhau.</li>
                     </ul>
                 </div>
                 <img src={imgBG} alt="" />

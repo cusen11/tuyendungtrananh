@@ -1,25 +1,29 @@
-import './App.css'
-import "lightgallery.js/dist/css/lightgallery.css";
-import Benefit from './Component/Benefit/Benefit';
-import Header from "./Component/Header/Header";
-import LoadPage from './Component/LoadPage/LoadPage';
-import Media from './Component/Media/Media';
-import Ourteam from './Component/Ourteam/Ourteam';
-import Project from './Component/Project/Project';
-import Footer from './Component/Footer/Footer';
+import React, { Suspense } from 'react';
 
+import './App.css'
+import "lightgallery.js/dist/css/lightgallery.css"; 
+
+const Benefit = React.lazy(() => import('./Component/Benefit/Benefit'));
+const Header = React.lazy(() => import('./Component/Header/Header'));
+const LoadPage  = React.lazy(() => import('./Component/LoadPage/LoadPage'));
+const Media = React.lazy(() => import('./Component/Media/Media'));
+const Ourteam = React.lazy(() => import('./Component/Ourteam/Ourteam'));
+const Project = React.lazy(() => import('./Component/Project/Project'));
+const Footer = React.lazy(() => import('./Component/Footer/Footer')); 
 
 
 function App() {  
   return (
     <>
-      <LoadPage/>
-      <Header/>
-      <Benefit/>
-      <Ourteam/>
-      <Project/>
-      <Media/>
-      <Footer/>
+     <Suspense fallback={<div>Loading...</div>}>
+        <LoadPage/>
+        <Header/>
+        <Benefit/>
+        <Ourteam/>
+        <Project/>
+        <Media/>
+        <Footer/>
+      </Suspense>
     </>
   );
 }
