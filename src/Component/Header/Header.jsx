@@ -27,7 +27,7 @@ function Header() {
                 </div>
                 <div className="social">
                     <a href="https://www.facebook.com/Tuy%E1%BB%83n-d%E1%BB%A5ng-nh%C3%A2n-s%E1%BB%B1-Tr%E1%BA%A7n-Anh-110411524861806/?ref=pages_you_manage" target="_blank" rel="noopener noreferrer"><img src={fbBlack} alt="facebook" /></a>
-                    <a href="/#" target="_blank" rel="noopener noreferrer"><img src={ybBlack} alt="youtube" /></a>
+                    <a href="https://www.youtube.com/channel/UCWILrKqksszm2knpaCt6p2w" target="_blank" rel="noopener noreferrer"><img src={ybBlack} alt="youtube" /></a>
                     <a href="mailto:ceo.248tsn@trananhgroup.com" target="_blank" rel="noopener noreferrer"><img src={gBlack} alt="Google plus" /></a> 
                 </div>
             </div>
