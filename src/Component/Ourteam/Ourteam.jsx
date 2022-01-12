@@ -73,14 +73,14 @@ function Ourteam() {
                     <img src={nv} alt="" />
                     <div className="content">
                         <h4>Lê Thị Xinh</h4>
-                        <p>Phó Phòng Kinh Doanh</p>
+                        <p>PH Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
                     <img src={nv1} alt="" />
                     <div className="content">
                         <h4>Hồ Xuân Thủy</h4>
-                        <p>Trưởng Phòng Kinh Doanh</p>
+                        <p>TP Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
@@ -101,7 +101,7 @@ function Ourteam() {
                     <img src={nv4} alt="" />
                     <div className="content">
                         <h4>Bùi Thị Hòa</h4>
-                        <p>Phó Phòng Kinh Doanh</p>
+                        <p>PH Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
@@ -114,21 +114,21 @@ function Ourteam() {
                 <div className="box-img">
                     <img src={nv6} alt="" />
                     <div className="content">
-                        <h4>Hoàng Thị Ngọc Ánh</h4>
-                        <p>Trưởng Phòng Kinh Doanh</p>
+                        <h4>Hoàng T.Ngọc Ánh</h4>
+                        <p>TP Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
                     <img src={nv7} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Thị Kim Chi</h4>
+                        <h4>Nguyễn T.Kim Chi</h4>
                         <p>Sub Leader</p>
                     </div>
                 </div> 
                 <div className="box-img">
                     <img src={nv8} alt="" />
                     <div className="content">
-                        <h4>Nguyễn Trọng Dương</h4>
+                        <h4>Nguyễn T.Dương</h4>
                         <p>Phó Giám Đốc</p>
                     </div>
                 </div> 
