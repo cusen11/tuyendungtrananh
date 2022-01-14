@@ -86,7 +86,7 @@ function Ourteam() {
                 <div className="box-img">
                     <img src={nv2} alt="" />
                     <div className="content">
-                        <h4>Lê Đình Chính</h4>
+                        <h4>Phi Phạm</h4>
                         <p>Phó Giám Đốc</p>
                     </div>
                 </div> 
@@ -121,7 +121,7 @@ function Ourteam() {
                 <div className="box-img">
                     <img src={nv7} alt="" />
                     <div className="content">
-                        <h4>Nguyễn T.Kim Chi</h4>
+                        <h4>Võ Ngọc Thủy</h4>
                         <p>Sub Leader</p>
                     </div>
                 </div> 

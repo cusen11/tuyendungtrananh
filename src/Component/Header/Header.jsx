@@ -47,7 +47,7 @@ function Header() {
                             </p>
                         </div>
                         <div className="group">
-                            <h4>30 nhân viên kinh doanh:</h4>
+                            <h4>30 Nhân viên kinh doanh:</h4>
                             <p>
                             + Không cần kinh nghiệm chỉ cần có chí hướng thăng tiến, thích kiếm tiền và sẽ được đào tạo thành nghề<br/>
                             + Lương 7 đến 12 triệu hàng tháng có hỗ trợ tiền maketing + tờ rơi<br/>
