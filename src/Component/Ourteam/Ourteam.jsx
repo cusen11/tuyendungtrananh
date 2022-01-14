@@ -72,7 +72,7 @@ function Ourteam() {
                 <div className="box-img">
                     <img src={nv} alt="" />
                     <div className="content">
-                        <h4>Lê Thị Xinh</h4>
+                        <h4>Xinh Lê</h4>
                         <p>PH Kinh Doanh</p>
                     </div>
                 </div> 
