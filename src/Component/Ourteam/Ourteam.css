@@ -102,8 +102,7 @@
     justify-content: center;
     align-items: center;
 }
-.wedo .box{
-    width: 485px; 
+.wedo .box{ 
     padding: 40px 40px 60px 40px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.25);

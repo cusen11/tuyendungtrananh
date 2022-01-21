@@ -134,13 +134,19 @@ function Ourteam() {
                 </div> 
             </Slider> 
             <div className="wedo">
-                <div className="box">
+                {/* <div className="box">
                     <h3>Chúng ta sẽ làm gì?</h3>
                     <p>Sales bất động sản (hay còn gọi là nhân viên kinh doanh bất động sản, nhà môi giới, chuyên viên tư vấn) là bên trung gian giữa người mua và người bán thông qua các hoạt động tư vấn, quảng cáo, tiếp thị để kết nối người bán và người muốn mua nhà và được hưởng một khoản phí (hoa hồng) khi giao dịch diễn ra thành công</p>
-                </div>
+                </div> */}
                 <div className="box">
-                    <h3>Mục đích hướng tới</h3>
-                    <p>Kiến thức chuyên môn ngành kinh doanh thương mại,đam mê trong việc kinh doanh làm giàu, am hiểu trong kiến thức về thổ cư, khả năng giao tiếp thuyết phục tốt, có sự kiên trì và khả năng chịu được áp lực về doanh số, luôn hướng đến sẽ trở thành một chuyên gia bất động sản trong tương lai.</p>
+                    <h3>Mục đích hướng tới:</h3>
+                    <p>
+                    - Nghề BĐS là một nghề cao quý và thu nhập không giới hạn, 1 tháng bạn có thể nhu nhập từ 20 triệu đến 50 triệu hay 200 triệu đến 300 triệu là chuyện bình thường, chỉ cần bạn cố gắng, đam mê và yêu nghề BĐS.
+                    <br/>
+                    - Rất nhiều đại gia BĐS, giám đốc công ty hay một tập đoàn BĐS họ cũng từng là một nhân viên sale BĐS mà ra, vậy tại sao chúng ta không nghĩ và cố gắng để thành công như họ ?
+                    <br/>
+                    - Công ty tôi sẽ là bước đệm và tạo mọi điều kiện cho ước mơ của bạn trở thành hiện thực…
+                    </p>
                 </div>
             </div>
         </div>
