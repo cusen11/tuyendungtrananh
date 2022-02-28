@@ -115,3 +115,12 @@
         margin: 7px 0;
     }
 }
+.copy-right{
+    background-color: #053528; 
+    padding: 10px;
+    text-align: center;
+} 
+.copy-right p,.copy-right a{
+    color: #fff;
+    font-size: 14px; 
+}
