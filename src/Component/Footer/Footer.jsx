@@ -46,7 +46,9 @@ function Footer() {
                     <iframe title='tran anh group' style={{border:'0'}} src={srcMap} width={600} height={450} allowFullScreen="" loading="lazy"></iframe>
                 </div>
             </div>
+            <div class="copy-right"><p>All Rights Reserved | © 2022 | Make by <a href="https://senfree.net/" target="_blank" rel='noreferrer'>S.E.N</a> </p></div>
         </div>
+        
     );
 }
 
