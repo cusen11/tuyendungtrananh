@@ -26,8 +26,8 @@ function Footer() {
                     <div className="contact">
                         <div className="phone">
                             <h5>Điện thoại:</h5>
-                            <p>0909027787</p>
-                            <p>0932645558 </p>
+                            <p>0909.027.787</p>
+                            <p>0975.027.787</p>
                         </div>
                         <div className="mail">
                             <h5>Mail:</h5>
