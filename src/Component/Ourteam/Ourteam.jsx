@@ -8,9 +8,7 @@ import nv from '../../Assets/Images/nv.png';
 import nv1 from '../../Assets/Images/nv1.png'; 
 import nv2 from '../../Assets/Images/nv2.png'; 
 import nv3 from '../../Assets/Images/nv3.png'; 
-import nv4 from '../../Assets/Images/nv4.png'; 
-import nv5 from '../../Assets/Images/nv5.png'; 
-import nv6 from '../../Assets/Images/nv6.png'; 
+import nv4 from '../../Assets/Images/nv4.png';  
 import nv7 from '../../Assets/Images/nv7.png';  
 import nv8 from '../../Assets/Images/nv8.png';  
 
@@ -79,15 +77,15 @@ function Ourteam() {
                 <div className="box-img">
                     <img src={nv1} alt="" />
                     <div className="content">
-                        <h4>Hồ Xuân Thủy</h4>
-                        <p>TP Kinh Doanh</p>
+                        <h4>Lại Thị Hà</h4>
+                        <p>Leader</p>
                     </div>
                 </div> 
                 <div className="box-img">
                     <img src={nv2} alt="" />
                     <div className="content">
-                        <h4>Phi Phạm</h4>
-                        <p>Phó Giám Đốc</p>
+                        <h4>Trần Thị Thu</h4>
+                        <p>Leader</p>
                     </div>
                 </div> 
                 <div className="box-img">
@@ -100,24 +98,10 @@ function Ourteam() {
                 <div className="box-img">
                     <img src={nv4} alt="" />
                     <div className="content">
-                        <h4>Bùi Thị Hòa</h4>
-                        <p>PH Kinh Doanh</p>
-                    </div>
-                </div> 
-                <div className="box-img">
-                    <img src={nv5} alt="" />
-                    <div className="content">
-                        <h4>Hồ Quyết Thắng</h4>
-                        <p>Leader</p>
-                    </div>
-                </div> 
-                <div className="box-img">
-                    <img src={nv6} alt="" />
-                    <div className="content">
-                        <h4>Hoàng T.Ngọc Ánh</h4>
+                        <h4>Lâm Dương Quí</h4>
                         <p>TP Kinh Doanh</p>
                     </div>
-                </div> 
+                </div>  
                 <div className="box-img">
                     <img src={nv7} alt="" />
                     <div className="content">
@@ -133,11 +117,7 @@ function Ourteam() {
                     </div>
                 </div> 
             </Slider> 
-            <div className="wedo">
-                {/* <div className="box">
-                    <h3>Chúng ta sẽ làm gì?</h3>
-                    <p>Sales bất động sản (hay còn gọi là nhân viên kinh doanh bất động sản, nhà môi giới, chuyên viên tư vấn) là bên trung gian giữa người mua và người bán thông qua các hoạt động tư vấn, quảng cáo, tiếp thị để kết nối người bán và người muốn mua nhà và được hưởng một khoản phí (hoa hồng) khi giao dịch diễn ra thành công</p>
-                </div> */}
+            <div className="wedo"> 
                 <div className="box">
                     <h3>Mục đích hướng tới:</h3>
                     <p>
