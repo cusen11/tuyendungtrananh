@@ -106,7 +106,7 @@ function Ourteam() {
                     <img src={nv7} alt="" />
                     <div className="content">
                         <h4>Võ Ngọc Thủy</h4>
-                        <p>Sub Leader</p>
+                        <p>TP Kinh Doanh</p>
                     </div>
                 </div> 
                 <div className="box-img">
